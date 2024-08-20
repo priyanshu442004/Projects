@@ -10,7 +10,9 @@
     "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "npm install"
+
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
