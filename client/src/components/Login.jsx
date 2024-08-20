@@ -23,7 +23,7 @@ const Login = () => {
     
     try {
       const res = await axios.post(//In summary, this code sends a JSON-formatted POST request to a registration endpoint
-        "http://localhost:3000/api/v1/user/login",//This line sends a POST request to the specified URL (http://localhost:3000/api/v1/user/register) using the axios library.
+        "http://gmailclone-tau.vercel.app/api/v1/user/login",//This line sends a POST request to the specified URL (http://localhost:3000/api/v1/user/register) using the axios library.
         Input,
         {
           headers: {
