@@ -9,6 +9,13 @@ import cors from 'cors';
 const app = express();
 const port = 3000;
 
+app.use(cors(
+    {
+        origin:["https:gmailclone.vercel.app"],
+        methods:["POST","GET"],
+        credentials:true
+    }
+))
 
 dotenv.config({})
 connectdb()
