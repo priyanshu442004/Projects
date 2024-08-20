@@ -25,7 +25,7 @@ const Mail = () => {
     try {
       const confirmDelete=window.confirm("Are you sure to delete this mail?")
       if(!confirmDelete)return
-      const res=await axios.delete(`http://localhost:3000/api/v1/email/${params.id}`,{withCredentials:true});
+      const res=await axios.delete(`http://gmailclone-tau.vercel.app/api/v1/email/${params.id}`,{withCredentials:true});
       toast.success(res.data.message);
       navigate('/')
     } catch (error) {
