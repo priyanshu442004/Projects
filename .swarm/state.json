@@ -1,5 +1,5 @@
 {
-  "swarmId": "swarm-mpwgqjie",
+  "swarmId": "swarm-mpwgw8ad",
   "objective": "Add a premium, aesthetic footer line at the bottom of the main page (index.html or home page) that says 'Enhanced by RuFlo Swarm' in a sleek, glowing neon-cyan pill layout with micro-animations.",
   "strategy": "specialized",
   "status": "initialized",
@@ -42,6 +42,6 @@
       "purpose": "Code review"
     }
   ],
-  "startedAt": "2026-06-02T09:56:38.346Z",
+  "startedAt": "2026-06-02T10:01:03.739Z",
   "parallel": true
 }
